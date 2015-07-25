@@ -21,7 +21,7 @@
 
 alter_profile(){
 	DIR="$1"
-	export PTOOLSPATH="$DIR/"
+	export PTOOLSPATH="$DIR"
 	export PATH="$PATH:$DIR"
 	PTOOLSVAR="export PTOOLSPATH=$DIR/"
 	PATHVAR="export PATH=\$PATH:$DIR"
